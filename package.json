@@ -1,7 +1,7 @@
 {
-  "name": "gulp-intro",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@oberstlynild/gulp-boilerplate",
+  "version": "0.1.0",
+  "description": "Simple Gulp boilerplate",
   "main": "index.js",
   "scripts": {
     "dev": "gulp",
@@ -14,7 +14,8 @@
   },
   "bugs": "https://github.com/oberstlynild/gulp-test/issues",
   "homepage": "https://github.com/oberstlynild/gulp-test#readme",
-  "author": "",
+  "keywords": ["gulp", "sass", "pug", "imagemin", "babel", "boilerplate"],
+  "author": "Lars Nobel <larsnprivat@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.9.0",
