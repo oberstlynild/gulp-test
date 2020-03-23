@@ -1,8 +1,11 @@
 {
   "name": "@oberstlynild/gulp-boilerplate",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Simple Gulp boilerplate",
   "main": "index.js",
+  "bin": {
+    "init": "./index.js"
+  },
   "scripts": {
     "dev": "gulp",
     "build": "gulp build",
@@ -14,7 +17,14 @@
   },
   "bugs": "https://github.com/oberstlynild/gulp-test/issues",
   "homepage": "https://github.com/oberstlynild/gulp-test#readme",
-  "keywords": ["gulp", "sass", "pug", "imagemin", "babel", "boilerplate"],
+  "keywords": [
+    "gulp",
+    "sass",
+    "pug",
+    "imagemin",
+    "babel",
+    "boilerplate"
+  ],
   "author": "Lars Nobel <larsnprivat@gmail.com>",
   "license": "ISC",
   "devDependencies": {
@@ -33,5 +43,7 @@
     "gulp-uglify": "^3.0.2",
     "imagemin-jpeg-recompress": "^6.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "mkdirp": "^1.0.3"
+  }
 }
